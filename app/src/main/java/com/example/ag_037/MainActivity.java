@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         confirmed.setOnClickListener(view -> {
 
-            Intent intent = new Intent(MainActivity.this, Details.class);
+            Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
             startActivity(intent);
 
         });
