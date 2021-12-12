@@ -57,7 +57,7 @@
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toTopOf="@+id/button3" />
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/todayCases"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
@@ -79,11 +79,11 @@
         android:text="Today"
         android:textAlignment="center"
         android:textColor="#B2AFAF"
-        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintBottom_toBottomOf="@+id/todayCases"
         app:layout_constraintEnd_toStartOf="@+id/textView10"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toTopOf="@+id/textView8" />
+        app:layout_constraintStart_toEndOf="@+id/todayCases"
+        app:layout_constraintTop_toTopOf="@+id/todayCases" />
 
     <TextView
         android:id="@+id/textView10"
@@ -111,7 +111,7 @@
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8">
+        app:layout_constraintTop_toBottomOf="@+id/todayCases">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
