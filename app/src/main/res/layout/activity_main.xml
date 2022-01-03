@@ -52,9 +52,8 @@
         app:ccp_showPhoneCode="false"
         app:layout_constraintBottom_toBottomOf="@+id/appName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/appName">
+        app:layout_constraintTop_toTopOf="@+id/appName"/>
 
-    </com.hbb20.CountryCodePicker>
 
 
 
@@ -484,7 +483,7 @@
         android:drawableLeft="@drawable/ic_phone"
         android:drawablePadding="8dp"
         android:fontFamily="@font/graphikmedium"
-        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
         android:text="Call Now"
         android:textAlignment="textStart"
         android:textAllCaps="false"
