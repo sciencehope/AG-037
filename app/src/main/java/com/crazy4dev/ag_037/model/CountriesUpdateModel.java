@@ -1,8 +1,24 @@
-package com.crazy4dev.ag_037;
+package com.crazy4dev.ag_037.model;
 
-public class ModelUpdate {
+public class CountriesUpdateModel {
     String country, cases, todayCases, deaths, todayDeaths, recovered, todayRecovered, active,
             critical, tests, population;
+
+    public CountriesUpdateModel(String country, String cases, String todayCases, String deaths,
+                                String todayDeaths, String recovered, String todayRecovered,
+                                String active, String critical, String tests, String population) {
+        this.country = country;
+        this.cases = cases;
+        this.todayCases = todayCases;
+        this.deaths = deaths;
+        this.todayDeaths = todayDeaths;
+        this.recovered = recovered;
+        this.todayRecovered = todayRecovered;
+        this.active = active;
+        this.critical = critical;
+        this.tests = tests;
+        this.population = population;
+    }
 
     public String getCountry() {
         return country;
